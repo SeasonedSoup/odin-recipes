@@ -1,12 +1,19 @@
 body {
-    font-style: Verdana;
+    font-style: Verdana, "Times New Roman", sans-serif;
     background-color: bisque;
 }
-h1 {
-    color:rgb(196, 66, 66)
+h1, h2, h3 {
+    color:rgb(196, 66, 66);
+    background-color: rgb(226, 190, 122);
+    font-weight: bolder;
 }
 
 .links a {
     font-size: 16px;
     font-style: italic;
+}
+
+img {
+    height: auto;
+    width: 300px;
 }
