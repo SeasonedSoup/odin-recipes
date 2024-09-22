@@ -16,6 +16,11 @@
     margin: 20px auto;
     border: solid black;
 }
+
+.images img {
+    margin: 50px;
+    
+}
 body {
     font-style: Verdana, "Times New Roman", sans-serif;
     background-color: bisque;
