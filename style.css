@@ -1,3 +1,21 @@
+*,
+*::before,
+*::after {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+* {
+    text-align: center;
+}
+
+.title {
+    width:500px;
+    padding: 20px;
+    margin: 20px auto;
+    border: solid black;
+}
 body {
     font-style: Verdana, "Times New Roman", sans-serif;
     background-color: bisque;
@@ -9,8 +27,17 @@ h1, h2, h3 {
 }
 
 .links a {
-    font-size: 16px;
+    font-size: 18px;
     font-style: italic;
+    margin-bottom: 20px;
+    display: inline-block;
+    
+    
+}
+
+.links a:hover {
+    color:rgb(45, 16, 173);
+    text-decoration: none;
 }
 
 img {
